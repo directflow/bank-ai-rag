@@ -1,0 +1,2 @@
+Domestic transfers are subject to the daily transfer limits configured for the customer's account.
+International transfers may require additional verification.

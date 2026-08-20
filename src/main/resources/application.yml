@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bank_ai
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+
+bank-ai:
+  embedding:
+    dimensions: 768
+  openai:
+    api-key: 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
+    model: gpt-4.1-mini
+    embedding-model: text-embedding-3-small
+  ollama:
+    base-url: ${OLLAMA_BASE_URL:http://localhost:11434}
+    embedding-model: ${OLLAMA_EMBEDDING_MODEL:nomic-embed-text}
