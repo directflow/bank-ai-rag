@@ -1,4 +1,4 @@
-package com.example.bankai.document;
+package com.example.bankai.domain;
 
 import jakarta.persistence.*;
 import org.hibernate.annotations.Array;
@@ -21,8 +21,8 @@ public class DocumentChunk {
     private String source;
 
     @JdbcTypeCode(SqlTypes.VECTOR)
-    @Array(length = 768)
-    @Column(columnDefinition = "vector(768)")
+    @Array(length = 1024)
+    @Column(columnDefinition = "vector(1024)")
     private float[] embedding;
 
     protected DocumentChunk() {}
@@ -40,9 +40,6 @@ public class DocumentChunk {
     }
 
     public void setEmbedding(float[] embedding) {
-        if (embedding != null && embedding.length != 768) {
-            throw new IllegalArgumentException("Embedding must contain exactly 768 dimensions.");
-        }
         this.embedding = embedding == null ? null : Arrays.copyOf(embedding, embedding.length);
     }
 }

@@ -1,5 +1,6 @@
-package com.example.bankai.document;
+package com.example.bankai.repository;
 
+import com.example.bankai.domain.DocumentChunk;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
