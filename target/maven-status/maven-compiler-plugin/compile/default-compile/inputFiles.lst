@@ -1,9 +1,0 @@
-/Users/zura/IdeaProjects/bank-ai-rag/src/main/java/com/example/bankai/BankAiApplication.java
-/Users/zura/IdeaProjects/bank-ai-rag/src/main/java/com/example/bankai/chat/ChatController.java
-/Users/zura/IdeaProjects/bank-ai-rag/src/main/java/com/example/bankai/chat/ChatService.java
-/Users/zura/IdeaProjects/bank-ai-rag/src/main/java/com/example/bankai/document/DocumentChunk.java
-/Users/zura/IdeaProjects/bank-ai-rag/src/main/java/com/example/bankai/document/DocumentChunkRepository.java
-/Users/zura/IdeaProjects/bank-ai-rag/src/main/java/com/example/bankai/document/DocumentController.java
-/Users/zura/IdeaProjects/bank-ai-rag/src/main/java/com/example/bankai/document/DocumentIngestionService.java
-/Users/zura/IdeaProjects/bank-ai-rag/src/main/java/com/example/bankai/embedding/EmbeddingService.java
-/Users/zura/IdeaProjects/bank-ai-rag/src/main/java/com/example/bankai/embedding/OllamaEmbeddingConfiguration.java

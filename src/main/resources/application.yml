@@ -13,8 +13,8 @@ spring:
 bank-ai:
   vllm:
     embedding:
-      url: http://ec2-3-76-225-90.eu-central-1.compute.amazonaws.com:8001/v1
+      url: http://ec2-3-70-72-194.eu-central-1.compute.amazonaws.com:8001/v1
       model: Qwen/Qwen3-Embedding-0.6B
     chat:
-      url: http://ec2-3-76-225-90.eu-central-1.compute.amazonaws.com:8000/v1
+      url: http://ec2-3-70-72-194.eu-central-1.compute.amazonaws.com:8000/v1
       model: Qwen/Qwen3-0.6B

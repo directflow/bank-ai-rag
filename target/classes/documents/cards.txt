@@ -1,2 +1,0 @@
-A customer can block a bank card using the mobile application.
-A blocked card cannot be used for new card transactions until it is unblocked or replaced.
