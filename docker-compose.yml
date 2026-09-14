@@ -3,8 +3,8 @@ services:
     image: pgvector/pgvector:pg17
     environment:
       POSTGRES_DB: bank_ai
-      POSTGRES_USER: bank
-      POSTGRES_PASSWORD: bank
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
     ports:
       - "5432:5432"
     volumes:
