@@ -16,15 +16,7 @@ Educational production-style project for learning:
 
     docker compose up -d
 
-2. Set your OpenAI key:
-
-    Linux/macOS:
-    `export OPENAI_API_KEY=...`
-
-    PowerShell:
-    `$env:OPENAI_API_KEY="..."`
-
-3. Start Spring Boot:
+2. Start Spring Boot:
 
     `mvn spring-boot:run`
 
